@@ -9,7 +9,11 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a29e357b-df33-4ec0-83eb-c253c1b617b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/DealCard.cs" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/BlackJack.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlackJackAlgo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlackJackAlgo/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.BlackJackAlgo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlackJackAlgo/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Card.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Card.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Deck.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Deck.cs" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,10 +21,14 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///home/starz102/RiderProjects/BlackJackAlgo/Card.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/32F13652-021A-4833-88A1-81FB2EC0306A/64/2a6b3ab2/List`1.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
@@ -28,8 +36,9 @@
       <list>
         <option value="$PROJECT_DIR$/Program.cs" />
         <option value="$PROJECT_DIR$/ICard.cs" />
-        <option value="$PROJECT_DIR$/Deck.cs" />
         <option value="$PROJECT_DIR$/Card.cs" />
+        <option value="$PROJECT_DIR$/Deck.cs" />
+        <option value="$PROJECT_DIR$/BlackJack.cs" />
       </list>
     </option>
   </component>
@@ -83,7 +92,8 @@
       <updated>1602531996451</updated>
       <workItem from="1602532008105" duration="2428000" />
       <workItem from="1602534784840" duration="977000" />
-      <workItem from="1602554734402" duration="3754000" />
+      <workItem from="1602554734402" duration="4318000" />
+      <workItem from="1602775685617" duration="1242000" />
     </task>
     <task id="LOCAL-00001" summary="Changes I've made:&#10;1. Found an example of carddeck building&#10;2. Created a Card and Deck class">
       <created>1602599440366</created>
@@ -92,7 +102,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602599440366</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Changes I've made:&#10;1. Found an example of carddeck building&#10;2. Created a carddeck class.&#10;3. Created a delegate designed to deal card. It'll co">
+      <created>1602600502964</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1602600502965</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -113,13 +130,14 @@
   <component name="VcsManagerConfiguration">
     <option name="CLEAR_INITIAL_COMMIT_MESSAGE" value="true" />
     <MESSAGE value="Changes I've made:&#10;1. Found an example of carddeck building&#10;2. Created a Card and Deck class" />
-    <option name="LAST_COMMIT_MESSAGE" value="Changes I've made:&#10;1. Found an example of carddeck building&#10;2. Created a Card and Deck class" />
+    <MESSAGE value="Changes I've made:&#10;1. Found an example of carddeck building&#10;2. Created a carddeck class.&#10;3. Created a delegate designed to deal card. It'll co" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changes I've made:&#10;1. Found an example of carddeck building&#10;2. Created a carddeck class.&#10;3. Created a delegate designed to deal card. It'll co" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="595" y="424" width="1801" height="1123" key="Vcs.Push.Dialog.v2" timestamp="1602532057157">
+    <state x="595" y="424" width="1792" height="1094" key="Vcs.Push.Dialog.v2" timestamp="1602600792639">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
-    <state x="595" y="424" width="1801" height="1123" key="Vcs.Push.Dialog.v2/0.0.3000.2000@0.0.3000.2000" timestamp="1602532057157" />
+    <state x="595" y="424" width="1792" height="1094" key="Vcs.Push.Dialog.v2/0.0.3000.2000@0.0.3000.2000" timestamp="1602600792639" />
     <state x="1035" y="833" width="921" height="304" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602532126729">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>

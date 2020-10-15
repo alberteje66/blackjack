@@ -17,11 +17,21 @@ namespace BlackJackAlgo
         }
 
         public int Rank { get; set; }
+
         public Suites Suite { get; set; }
+
+        private Random _random;
         /*
          * The above sets the properties: enum for the suites, and the Rank for the card ranks
          * the next property is used to get the name value
          */
+        
+        //default constructor
+        public Card()
+        {
+            
+        }
+        
 
         public string NamedValue
         {
@@ -59,6 +69,8 @@ namespace BlackJackAlgo
                 return NamedValue + " of " + Suite.ToString();
             }
         }
+        
+        //constructor for dealing random cards
 
         public Card(int Rank, Suites suite)
         {
