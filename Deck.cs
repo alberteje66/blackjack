@@ -41,4 +41,10 @@ namespace BlackJackAlgo
             }
         }
     }
+
+    public interface IBlackJack
+    {
+        
+        
+    }
 }
