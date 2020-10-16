@@ -9,9 +9,11 @@
       <e p="BlackJackAlgo.csproj" t="IncludeRecursive" />
       <e p="BlackJackAlgo.sln" t="IncludeFlat" />
       <e p="Card.cs" t="Include" />
+      <e p="CardScores.cs" t="Include" />
       <e p="DealCard.cs" t="Include" />
       <e p="Deck.cs" t="Include" />
       <e p="Program.cs" t="Include" />
+      <e p="README.md" t="Include" />
       <e p="bin" t="ExcludeRecursive" />
       <e p="obj" t="ExcludeRecursive">
         <e p="Debug" t="Include">
