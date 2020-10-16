@@ -89,8 +89,8 @@ namespace BlackJackAlgo
               case 14:
                 if(totalscore >= 10){
                   Func<int> () => totalscore+1;
-                } else {
                   Func<int> () => totalscore+11;
+                } else {
                 }
                 break;
               
