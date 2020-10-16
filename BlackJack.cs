@@ -69,6 +69,38 @@ namespace BlackJackAlgo
                 }
             }
         }
+        
+        public static void CardValues{
+          //int score =1;
+          int totalscore =0;
+          foreach(Card card in PlayingDeck){
+            switch(card.Rank){
+              case 2:
+                Func<int> () => totalscore+2;
+                break;
+              
+              case 3:
+                Func<int> () => totalscore+13;
+                break;
+               
+               case 4:
+                Func<int> () => totalscore+4;
+              
+              case 14:
+                if(totalscore >= 10){
+                  Func<int> () => totalscore+1;
+                  Func<int> () => totalscore+11;
+                } else {
+                }
+                break;
+              
+              default: 
+              score = 0;
+              break;
+            }
+            totalscore += score;
+          }
+        }
 
     }
 }
