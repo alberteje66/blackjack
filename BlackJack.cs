@@ -1,5 +1,6 @@
 using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Windows.Markup;
 
 namespace BlackJackAlgo
@@ -75,6 +76,14 @@ namespace BlackJackAlgo
                 }
             }
         }
+
+        /// <summary>
+        /// Okay, this is going to become an event for dealing a card.
+        /// </summary>
+        public delegate void DealCard (object source, EventArgs args); //delegate define
+        
+        //event define
+        public event DealCard HitMe;
         
         //going to use patterns to determine the scores for cards
         /// <summary>
@@ -139,5 +148,20 @@ namespace BlackJackAlgo
                 }
             }
         }*/
+        protected virtual void OnHitMe(object source) //raise the event
+        {
+            HitMe?.Invoke(source, EventArgs.Empty);
+            if (PlayerHand.Count==5)
+            {
+                throw new OverflowException("Cannot deal anymore cards.");
+            }
+            else
+            {
+                Random random = new Random();
+                Card newcard = new Card(random.Next(13), (Card.Suites)random.Next(4));
+                Console.WriteLine(newcard.Name);
+                
+            }
+        }
     }
 }

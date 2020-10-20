@@ -26,11 +26,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a29e357b-df33-4ec0-83eb-c253c1b617b8" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/CardScores.cs" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlackJackAlgo/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlackJackAlgo/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.BlackJackAlgo/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.BlackJackAlgo/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/BlackJack.cs" beforeDir="false" afterPath="$PROJECT_DIR$/BlackJack.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DealCard.cs" beforeDir="false" afterPath="$PROJECT_DIR$/DealCard.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DealCard.cs" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,8 +54,8 @@
         <option value="$PROJECT_DIR$/ICard.cs" />
         <option value="$PROJECT_DIR$/Card.cs" />
         <option value="$PROJECT_DIR$/Deck.cs" />
-        <option value="$PROJECT_DIR$/DealCard.cs" />
         <option value="$PROJECT_DIR$/CardScores.cs" />
+        <option value="$PROJECT_DIR$/DealCard.cs" />
         <option value="$PROJECT_DIR$/BlackJack.cs" />
       </list>
     </option>
@@ -113,7 +112,9 @@
       <workItem from="1602534784840" duration="977000" />
       <workItem from="1602554734402" duration="4318000" />
       <workItem from="1602775685617" duration="2035000" />
-      <workItem from="1602850664233" duration="3915000" />
+      <workItem from="1602850664233" duration="4201000" />
+      <workItem from="1603136167898" duration="2357000" />
+      <workItem from="1603228395010" duration="2412000" />
     </task>
     <task id="LOCAL-00001" summary="Changes I've made:&#10;1. Found an example of carddeck building&#10;2. Created a Card and Deck class">
       <created>1602599440366</created>
@@ -143,7 +144,14 @@
       <option name="project" value="LOCAL" />
       <updated>1602777567538</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Added a switch pattern for card choices, and a new class called CardScores. It calculatess the score based on the numerical rank of a car from 2-14 (Ace is worth 14 in this context)">
+      <created>1602868772479</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1602868772479</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -179,17 +187,18 @@
     <MESSAGE value="Changes I've made:&#10;1. Found an example of carddeck building&#10;2. Created a carddeck class.&#10;3. Created a delegate designed to deal card. It'll co" />
     <MESSAGE value="Added the BlackJack class. Its SOLE purpose is to run the game. So far there is a method for the player's hand, and dealer's hand. I might make a different class to outline the game's rules" />
     <MESSAGE value="Added the BlackJack class. Its SOLE purpose is to run the game. So far there is a method for the player's hand, and dealer's hand. I might make a different class to outline the game's rules. Rules of Black Jack:&#10;Score can't be higher than 21&#10;Whoever gets closest to 21 without going over wins" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added the BlackJack class. Its SOLE purpose is to run the game. So far there is a method for the player's hand, and dealer's hand. I might make a different class to outline the game's rules. Rules of Black Jack:&#10;Score can't be higher than 21&#10;Whoever gets closest to 21 without going over wins" />
+    <MESSAGE value="Added a switch pattern for card choices, and a new class called CardScores. It calculatess the score based on the numerical rank of a car from 2-14 (Ace is worth 14 in this context)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Added a switch pattern for card choices, and a new class called CardScores. It calculatess the score based on the numerical rank of a car from 2-14 (Ace is worth 14 in this context)" />
   </component>
   <component name="WindowStateProjectService">
     <state x="1085" y="429" width="820" height="1112" key="RiderGenerateDialog" timestamp="1602852699056">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
     <state x="1085" y="429" width="820" height="1112" key="RiderGenerateDialog/0.0.3000.2000@0.0.3000.2000" timestamp="1602852699056" />
-    <state x="595" y="424" width="1783" height="1065" key="Vcs.Push.Dialog.v2" timestamp="1602777581144">
+    <state x="595" y="424" width="1774" height="1035" key="Vcs.Push.Dialog.v2" timestamp="1602868781450">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
-    <state x="595" y="424" width="1783" height="1065" key="Vcs.Push.Dialog.v2/0.0.3000.2000@0.0.3000.2000" timestamp="1602777581144" />
+    <state x="595" y="424" width="1774" height="1035" key="Vcs.Push.Dialog.v2/0.0.3000.2000@0.0.3000.2000" timestamp="1602868781450" />
     <state x="1035" y="833" width="931" height="334" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1602850832700">
       <screen x="0" y="0" width="3000" height="2000" />
     </state>
